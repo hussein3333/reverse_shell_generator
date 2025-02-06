@@ -63,7 +63,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     
-    if not args.lhost:
+    if not args.lhost: # Check to see if lhost was provided
         parser.print_help()
     else:
         # Generate Reverse Shell
