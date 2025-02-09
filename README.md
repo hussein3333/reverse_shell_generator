@@ -5,14 +5,13 @@ A Python-based reverse shell generator and listener. This tool can:
 </br>-Generate a reverse shell script tailored to your provided IP/ports.
 </br>-Start a listener to catch incoming reverse shells.
 
-WARNING: This tool is intended for educational purposes and authorized security testing only. Unauthorized use may violate local and federal laws. Use responsibly.
+WARNING: This tool is intended for educational purposes and authorized security testing only. Use responsibly!
 
 Features:
 </br>-Automatic Reverse Shell Generation
 </br>-Dynamically creates a .py file that, when run on the target, connects back to your machine.
 </br>-Built-in Listener
 </br>-Spawns a TCP listener on your specified LHOST and LPORT to accept the reverse connection.
-</br>-Customizable Ports
 </br>-Specify which ports the victim will connect to (LPORT) 
 
 Requirements
